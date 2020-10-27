@@ -1,0 +1,19 @@
+.navigation {
+  list-style: none;
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+.navigationItem {
+  margin-right: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.activeLink {
+  color: #ff0000;
+}

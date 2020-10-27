@@ -1,0 +1,42 @@
+.movieDetails {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+.movieImg {
+  width: 250px;
+  margin-right: 20px;
+}
+.moviePopularity {
+  font-style: italic;
+  font-weight: bold;
+  color: gray;
+}
+.movieRelease {
+  font-weight: bold;
+}
+.genresList {
+  display: flex;
+  font-weight: bold;
+  padding: 0;
+}
+.genresItem {
+  list-style: none;
+  margin-left: 5px;
+}
+.additionalInfo {
+  list-style: none;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+.listItem {
+  margin-right: 10px;
+}
+.link {
+  color: black;
+}
+
+.activeLink {
+  color: #ff0000;
+}
